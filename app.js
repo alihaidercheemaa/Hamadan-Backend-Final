@@ -21,7 +21,7 @@ const eBookRoutes = require("./routes/e_publication");
 const advocacyRoutes = require("./routes/AdvocacyRoutes");
 const campaignRoutes = require("./routes/CampaignRoutes");
 const legislativeLobbyRoutes = require("./routes/legislativeLobbyRoutes");
-const certificationRoutes = require("./routes/certificationRoutes"); 
+// const certificationRoutes = require("./routes/certificationRoutes"); 
 // const listingRoutes = require('./routes/listingRoutes');
 
 
@@ -75,7 +75,7 @@ app.use("/api/ebook", eBookRoutes);
 app.use("/api/advocacy", advocacyRoutes);
 app.use("/api/campaigns", campaignRoutes);
 app.use("/api/legislative-lobby", legislativeLobbyRoutes);
-app.use("/api/certifications", certificationRoutes); 
+// app.use("/api/certifications", certificationRoutes); 
 // app.use('/api/listings', listingRoutes);
 
 
