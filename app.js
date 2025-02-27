@@ -22,7 +22,7 @@ const advocacyRoutes = require("./routes/AdvocacyRoutes");
 const campaignRoutes = require("./routes/CampaignRoutes");
 const legislativeLobbyRoutes = require("./routes/legislativeLobbyRoutes");
 const certificationRoutes = require("./routes/certificationRoutes"); 
-const listingRoutes = require('./routes/listingRoutes');
+// const listingRoutes = require('./routes/listingRoutes');
 
 
 
@@ -76,7 +76,7 @@ app.use("/api/advocacy", advocacyRoutes);
 app.use("/api/campaigns", campaignRoutes);
 app.use("/api/legislative-lobby", legislativeLobbyRoutes);
 app.use("/api/certifications", certificationRoutes); 
-app.use('/api/listings', listingRoutes);
+// app.use('/api/listings', listingRoutes);
 
 
 
